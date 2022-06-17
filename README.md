@@ -1,0 +1,2 @@
+# chessfields64
+ In this simulation there are 2 variants, each inspired by the "chessboard with grains of rice". Variant A: The area occupied by 1 playing dice on the ground is doubled 63 times. The total area of the doublings is given and illustrated by an area comparison (number of earth surfaces). Variation B: The time of 1 second is doubled 63 times. The total time of these duplications is indicated (in years) and illustrated by a time comparison.
