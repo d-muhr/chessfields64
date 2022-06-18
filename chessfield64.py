@@ -30,10 +30,15 @@ scenario
 
 
 # welcome text
-print('''You probably heard of the story about the chessboard and the grain of rice.
-Duplicate 1 grain of rice 64 times and you get an unimaginable large amount of rice.
-This program enables you to simulate 2 different simulations of such 64-times-duplications.
-And the final number will be put into perspective by comparing it to other entities that can be grasped more easily''')
+print(
+    "You probably heard of the story about the chessboard and the",
+    "grain of rice.\n",
+    "Duplicate 1 grain of rice 64 times and you get an unimaginable large",
+    "amount of rice.\n",
+    "This program enables you to simulate 2 different simulations of such",
+    "64-times-duplications.\n"
+    "And the final number will be put into perspective by comparing it to",
+    "other entities that can be grasped more easily.")
 
 
 while True:
