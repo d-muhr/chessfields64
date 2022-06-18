@@ -45,10 +45,11 @@ while True:
 
     # User can choose between different procedures
     print(
-        '''You can chooose one of the following scenarios of what is being duplicated:
-    A) 1 playing dice on the ground (equals roughly 1 square cm of space)
-    B) 1 second of time
-    ''')
+        "You can chooose one of the following scenarios of what is being",
+        "duplicated:\n",
+        "A) 1 playing dice on the ground (equals roughly 1 square cm of", 
+        "space)\n",
+        "B) 1 second of time")
 
     chosen_simulation = pyip.inputMenu(
         ['A', 'B'], lettered=False, numbered=False)
@@ -64,15 +65,19 @@ while True:
 
     # variables that are needed for the scenario with seconds
     '''
-    The following variables are used for calculating the amount of time which will be
-    displayed for the user in the seconds-scenario. Microseconds are used and later
-    recalculated in seconds because with seconds or milli seconds the timedelta function
-    results in an OferflowError (e.g. "OverflowError: days=1628906115; must have magnitude <= 999999999").
+    The following variables are used for calculating the amount of time 
+    which will be displayed for the user in the seconds-scenario. 
+    Microseconds are used and later recalculated in seconds because with 
+    seconds or milli seconds the timedelta function results in an 
+    OverflowError (e.g. "OverflowError: days=1628906115; must have 
+    magnitude <= 999999999").
     '''
     time_period_1_microsecond = timedelta(seconds=0.000001)
     time_period_1_year = timedelta(days=365)
 
-    print("-------------------------------------------------------------------")
+    print(
+        "-------------------------------------",
+        "------------------------------")
 
     while chessfield_no < 64:
         chessfield_no += 1
@@ -97,14 +102,17 @@ while True:
               f"{amount_on_current_chessfield:,}")
         print("Amount on chessboard:", f"{amount_on_chessboard:,}")
 
-        print("-------------------------------------------------------------------")
+        print(
+            "-----------------------------------------------------",
+            "--------------")
 
         # TODO above: display "amount of dice/seconds" instead of simply amount
 
     # The following output depends on the chosen simulation by the user
     if chosen_simulation == 'A':
         print(
-            "---Area of playing dice (of the dice on all chessboard fields combined) in square km:",
+            "---Area of playing dice (of the dice on all chessboard",
+            "fields combined) in square km:",
             f"{square_km_playing_dice_on_chessboard:,}",
             "---")
 
@@ -117,7 +125,8 @@ while True:
 
     if chosen_simulation == 'B':
         print(
-            "---Time of each single second on the chessboard field combined in years:",
+            "---Time of each single second on the chessboard field",
+            "combined in years:",
             f"{time_in_years_on_chessboard:,}",
             "---")
 
