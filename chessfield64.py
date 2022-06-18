@@ -144,18 +144,22 @@ while True:
     # TODO above: round the "...times" numbers because 2 digits after point
     # are enough
 
-    '''OPTIONAL TODO above: If I make more than the currently 2 scenarios it migh make sense to use several dictionaries, and then
-    - instead of "Area" use variable "comparison_dimension" which is then area/time/whatever
-    - instead of "playing dice" use variable "entity_name" which is then playing dice/ seconds/ whatever
-    - instead of "square km" use varialbe "comparison_unit" which ist then square km/ years/wahtever
-
+    '''OPTIONAL TODO above: If I make more than the currently 2 
+    scenarios it migh make sense to use several dictionaries, and then
+    - instead of "Area" use variable "comparison_dimension" which is 
+    then area/time/whatever
+    - instead of "playing dice" use variable "entity_name" which is then 
+    playing dice/ seconds/ whatever
+    - instead of "square km" use varialbe "comparison_unit" which ist 
+    then square km/ years/wahtever
     '''
 
     # TODO above: the "this equals...." number still has to be rounded
 
-    """     TODO_Get rid of the following  break-statement as soon as the Game is finished.
-        If I get rid of it before the game will often have issues because of an eternal loop
-        which might raise the exit-condition at some point or not """
+    """TODO_Get rid of the following  break-statement as soon as the 
+    Game is finished. If I get rid of it before the game will often have 
+    issues because of an eternal loop  which might raise the 
+    exit-condition at some point or not """
 
     # break
     # User can make another calculation or quit the program
