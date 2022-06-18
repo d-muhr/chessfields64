@@ -9,7 +9,8 @@ POTENTIAL TODO:
 ------------------
 OPTIONAL TODO: IF I WANT TO ADD MORE SCENARIOS/SIMULATIONS
 
-- C) rice chess; for loop mit print (1 grain of rice bzw 1/625000 kg of rice (a small bag)...)
+- C) rice chess; for loop mit print (1 grain of rice bzw 1/625000 kg of 
+rice (a small bag)...)
 
 - (1 Person -> 1 person per square meter in square km)
 - (option 2: 1 Haar breit; ~0,1 mm; 0.001% eines Durchschnitts-Kopfes)
@@ -17,9 +18,13 @@ OPTIONAL TODO: IF I WANT TO ADD MORE SCENARIOS/SIMULATIONS
 - (option 6: 1 DIN A 4 blatt Dicke)
 
 - (((option 8: 1 rain drop (c. 0.1 lubik cm))))
-- (((option 4: 1 Cent (0.01 €) (Challenge I have not solved yet: comma every 3rd digit AND 2 digits after point) )))
+- (((option 4: 1 Cent (0.01 €) (Challenge I have not solved yet:
+comma every 3rd digit AND 2 digits after point) )))
 
-für die 7 variablen oben brauche ich vermutlich jeweils 1 dictionary und jedes dictionary hat für jedes Szenario 1 ~feld
+for the 7 variables above I will probably need 1 dictionary for each 
+variable and every dictionary will have roughly 1 ~field for each
+scenario
+
 ---------------
 '''
 
