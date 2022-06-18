@@ -76,8 +76,8 @@ while True:
     time_period_1_year = timedelta(days=365)
 
     print(
-        "-------------------------------------",
-        "------------------------------")
+        "-----------------------------------------------------",
+        "--------------")
 
     while chessfield_no < 64:
         chessfield_no += 1
@@ -145,7 +145,7 @@ while True:
             "times the age of the universe (roughly 13.8 billion years).---")
 
     # TODO above: round the "...times" numbers because 2 digits after 
-    # point     # are enough
+    # point are enough
 
     '''OPTIONAL TODO above: If I make more than the currently 2 
     scenarios it migh make sense to use several dictionaries, and then
