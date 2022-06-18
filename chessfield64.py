@@ -88,10 +88,12 @@ while True:
         amount_on_chessboard = pow(2, chessfield_no) - 1
 
         # variables that are important for dice scenario
-        square_km_playing_dice_on_chessboard = amount_on_chessboard * square_cm_in_square_km
+        square_km_playing_dice_on_chessboard = amount_on_chessboard * \
+            square_cm_in_square_km
 
         # variables for the scenario with seconds
-        time_in_microseconds_on_chessboard = amount_on_chessboard * time_period_1_microsecond
+        time_in_microseconds_on_chessboard = amount_on_chessboard * \
+            time_period_1_microsecond
 
         time_in_years_on_chessboard = time_in_microseconds_on_chessboard / \
             time_period_1_year * 1000000
@@ -119,7 +121,8 @@ while True:
         print(
             "---This equals",
             round(
-                (square_km_playing_dice_on_chessboard / earth_surface_square_km),
+                (square_km_playing_dice_on_chessboard / \
+                earth_surface_square_km),
                 2),
             "times the earth's surface area (510,072,000 km²).---")
 
@@ -141,8 +144,8 @@ while True:
                 2),
             "times the age of the universe (roughly 13.8 billion years).---")
 
-    # TODO above: round the "...times" numbers because 2 digits after point
-    # are enough
+    # TODO above: round the "...times" numbers because 2 digits after 
+    # point     # are enough
 
     '''OPTIONAL TODO above: If I make more than the currently 2 
     scenarios it migh make sense to use several dictionaries, and then
